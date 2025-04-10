@@ -12,10 +12,10 @@ function App() {
             <Link to="/">WEB2091</Link>
           </Menu.Item>
           <Menu.Item key="2">
-            <Link to="/">Products</Link>
+            <Link to="/">List</Link>
           </Menu.Item>
           <Menu.Item key="3">
-            <Link to="/">Add Product</Link>
+            <Link to="/">Add</Link>
           </Menu.Item>
         </Menu>
       </Header>
