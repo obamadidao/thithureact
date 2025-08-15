@@ -1,5 +1,9 @@
+import { useQuery } from "@tanstack/react-query";
 import { Table, Button, Popconfirm, Image, Space } from "antd";
 function ProductList() {
+
+
+    
  const columns = [
     {
         title: 'Name',
@@ -50,6 +54,6 @@ function ProductList() {
 
 ];
 
-    return <Table dataSource={} columns={columns} />;
+    return <Table dataSource={data} columns={columns} key="id"/>;
 }
 export default ProductList;
